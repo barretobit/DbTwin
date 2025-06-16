@@ -2,6 +2,7 @@
 
 public class AppSettings
 {
+    public string? DatabaseEngine { get; set; }
     public ConnectionStrings? ConnectionStrings { get; set; }
 }
 
